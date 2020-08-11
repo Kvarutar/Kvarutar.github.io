@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function(){
 				}
 			})
 			console.log(validationResult)
-			if(validationResult[0] || validationResult[1] || validationResult[2]){
+			if(validationResult[0] && validationResult[1] && validationResult[2]){
 				if (document.querySelector('.overlay').classList.contains('overlay_active')){
 					document.querySelector('.overlay').classList.remove('overlay_active');
 					document.querySelector('.modal').classList.remove('modal_active');
@@ -91,11 +91,14 @@ document.addEventListener('DOMContentLoaded', function(){
 			let error = form.querySelector('.error1');
 			if (!formName.value) {
 				formName.classList.add('error')
+				validationResult[0] = false;
 			}
 			else if (formName.value.length < 2){
 				formName.classList.add('error')
+				validationResult[0] = false;
 			} else if (!isNaN(formName.value)){
 				formName.classList.add('error')
+				validationResult[0] = false;
 			}
 			else if(formName.value || formName.classList.contains('error')) {
 				formName.classList.remove('error')
@@ -109,6 +112,7 @@ document.addEventListener('DOMContentLoaded', function(){
 				validationResult[1] = true;
 			} else {
 				formPhone.classList.add('error')
+				validationResult[1] = false;
 			}
 		})
 
@@ -118,6 +122,7 @@ document.addEventListener('DOMContentLoaded', function(){
 				validationResult[2] = true;
 			} else {
 				formEmail.classList.add('error')
+				validationResult[1] = false;
 			}
 		})
 	})
