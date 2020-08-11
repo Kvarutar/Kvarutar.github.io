@@ -88,7 +88,6 @@ document.addEventListener('DOMContentLoaded', function(){
 			validationResult = [false, false, false]
 
 		formName.addEventListener('blur', function(){
-			let error = form.querySelector('.error1');
 			if (!formName.value) {
 				formName.classList.add('error')
 				validationResult[0] = false;
@@ -104,6 +103,7 @@ document.addEventListener('DOMContentLoaded', function(){
 				formName.classList.remove('error')
 				validationResult[0] = true;
 			}
+			console.log(validationResult[0])
 		})
 
 		formPhone.addEventListener('blur', function(){
