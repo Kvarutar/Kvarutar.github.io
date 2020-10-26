@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.896ce1e2.chunk.css",
+    "main.js": "/static/js/main.0acb1dec.chunk.js",
+    "main.js.map": "/static/js/main.0acb1dec.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2e246986.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2e246986.js.map",
+    "static/js/2.215378ac.chunk.js": "/static/js/2.215378ac.chunk.js",
+    "static/js/2.215378ac.chunk.js.map": "/static/js/2.215378ac.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.896ce1e2.chunk.css.map": "/static/css/main.896ce1e2.chunk.css.map",
+    "static/js/2.215378ac.chunk.js.LICENSE.txt": "/static/js/2.215378ac.chunk.js.LICENSE.txt",
+    "static/media/app.css": "/static/media/Background2.c17a9533.png",
+    "static/media/stylesheet.css": "/static/media/Roboto-ThinItalic.d5937d18.woff",
+    "static/media/groupSchedule.css": "/static/media/right.38747548.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e246986.js",
+    "static/js/2.215378ac.chunk.js",
+    "static/css/main.896ce1e2.chunk.css",
+    "static/js/main.0acb1dec.chunk.js"
+  ]
+}
