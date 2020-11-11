@@ -1,0 +1,84 @@
+.header
+    position: relative
+    display: flex
+    justify-content: space-between
+    background: #032569
+    border-right: 1px solid #144998
+    height: 82px
+    z-index: 999
+    &__left
+        display: flex
+        align-items: center
+        &_img
+            //width: 77%
+            margin-left: 40.86px
+            display: block
+            margin-top: 31px
+            //margin: 0 auto
+        &_logo
+            width: 256px
+            height: 100%
+            border: 1px solid #144998
+            box-sizing: border-box
+        &_first
+            margin-left: 32px
+            display: flex
+            align-items: center
+        &_select
+            //padding-left: 16px 
+            outline: none
+            padding: 0 16px
+            width: 293px
+            height: 40px
+            border: none
+            background: #113E99
+            border-radius: 4px
+            font-weight: 400
+            font-size: 14px
+            text-transform: uppercase
+            color: #FFFFFF
+        &_info
+            margin-left: 31px
+            font-weight: bold
+            font-size: 14px
+            text-decoration-line: underline
+            text-transform: uppercase
+            color: #EA2E1D
+    &__right
+        display: flex
+        align-items: center
+        &_wrapper
+            display: flex
+        &_profile
+            cursor: pointer
+            margin-right: 30px
+            display: flex
+            align-items: center
+        &_arrow
+            margin-left: 5px
+.tabs
+    margin-right: 19.5px
+    width: 560px
+    display: flex
+    align-items: center
+    justify-content: space-between
+    &__title
+        display: none
+    &-item
+        cursor: pointer
+        display: flex
+        align-items: center
+        height: 42px
+        padding: 0 14px
+        &_descr
+            margin-left: 10px
+            font-weight: 400
+            font-size: 14px
+            color: #FFFFFF
+
+.tabs_active
+    top: 82px !important
+    display: block !important
+.active
+    background: #113E99
+    border-radius: 4px
