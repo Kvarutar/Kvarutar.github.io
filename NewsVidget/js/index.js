@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function(){
         dateText.textContent = date;
         authorText.textContent = author;
         more.textContent = 'Подробнее';
-        more.href = '../bigNews.html';
+        more.href = 'NewsVidget/bigNews.html';
 
         newsWrapper.appendChild(newElem);
 
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function(){
     newsIcon__wrapper.classList.add('news_icon__wrapper');
     newsCounterBlock.classList.add('news__counter');
     newsCounterBlock.textContent = newsCounter;
-    newsIcon.src = '../img/newsIcon.svg';
+    newsIcon.src = 'NewsVidget/img/newsIcon.svg';
     newsIcon.classList.add('news__icon');
     document.querySelector('.body').appendChild(newsIcon__wrapper);
     newsIcon__wrapper.appendChild(newsCounterBlock);
