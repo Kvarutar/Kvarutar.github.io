@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Navigo';
+    src: url('Navigo-ExtraLight-Web.eot');
+    src: local('Navigo ExtraLight'), local('Navigo-ExtraLight'),
+        url('Navigo-ExtraLight-Web.eot?#iefix') format('embedded-opentype'),
+        url('Navigo-ExtraLight-Web.woff2') format('woff2'),
+        url('Navigo-ExtraLight-Web.woff') format('woff'),
+        url('Navigo-ExtraLight-Web.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Navigo';
+    src: url('Navigo-Thin-Web.eot');
+    src: local('Navigo Thin'), local('Navigo-Thin'),
+        url('Navigo-Thin-Web.eot?#iefix') format('embedded-opentype'),
+        url('Navigo-Thin-Web.woff2') format('woff2'),
+        url('Navigo-Thin-Web.woff') format('woff'),
+        url('Navigo-Thin-Web.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Navigo';
+    src: url('Navigo-Black-Web.eot');
+    src: local('Navigo Black'), local('Navigo-Black'),
+        url('Navigo-Black-Web.eot?#iefix') format('embedded-opentype'),
+        url('Navigo-Black-Web.woff2') format('woff2'),
+        url('Navigo-Black-Web.woff') format('woff'),
+        url('Navigo-Black-Web.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Navigo';
+    src: url('Navigo-Medium-Web.eot');
+    src: local('Navigo Medium'), local('Navigo-Medium'),
+        url('Navigo-Medium-Web.eot?#iefix') format('embedded-opentype'),
+        url('Navigo-Medium-Web.woff2') format('woff2'),
+        url('Navigo-Medium-Web.woff') format('woff'),
+        url('Navigo-Medium-Web.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Navigo';
+    src: url('Navigo-Light-Web.eot');
+    src: local('Navigo Light'), local('Navigo-Light'),
+        url('Navigo-Light-Web.eot?#iefix') format('embedded-opentype'),
+        url('Navigo-Light-Web.woff2') format('woff2'),
+        url('Navigo-Light-Web.woff') format('woff'),
+        url('Navigo-Light-Web.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Navigo';
+    src: url('Navigo-Regular-Web.eot');
+    src: local('Navigo Regular'), local('Navigo-Regular'),
+        url('Navigo-Regular-Web.eot?#iefix') format('embedded-opentype'),
+        url('Navigo-Regular-Web.woff2') format('woff2'),
+        url('Navigo-Regular-Web.woff') format('woff'),
+        url('Navigo-Regular-Web.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Navigo';
+    src: url('Navigo-Bold-Web.eot');
+    src: local('Navigo Bold'), local('Navigo-Bold'),
+        url('Navigo-Bold-Web.eot?#iefix') format('embedded-opentype'),
+        url('Navigo-Bold-Web.woff2') format('woff2'),
+        url('Navigo-Bold-Web.woff') format('woff'),
+        url('Navigo-Bold-Web.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
