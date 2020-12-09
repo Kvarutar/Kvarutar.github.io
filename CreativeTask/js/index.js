@@ -34,8 +34,8 @@ $(document).ready(function(){
         infinite: true,
         slidesToShow: 4,
         slidesToScroll: 1,
-        prevArrow: "<div class='prev'><img src='../img/left.svg' class='prev__img' alt='prev'></div>",
-        nextArrow: "<div class='next'><img src='../img/right.svg' class='next__img' alt='next'></div>",
+        prevArrow: "<div class='prev'><img src='CreativeTask/img/left.svg' class='prev__img' alt='prev'></div>",
+        nextArrow: "<div class='next'><img src='CreativeTask/img/right.svg' class='next__img' alt='next'></div>",
         responsive: [
             {
               breakpoint: 480,
