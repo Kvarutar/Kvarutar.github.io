@@ -1,0 +1,44 @@
+* {-webkit-appearance:none; -moz-appearance:none; appearance:none; -webkit-tap-highlight-color:transparent; outline:0; margin:0; padding:0; font-feature-settings:'liga' 0, 'dlig' 0, 'onum' 0, 'lnum' 0, 'tnum' 0, 'zero' 0, 'frac' 0, 'sups' 0, 'subs' 0, 'smcp' 0, 'c2sc' 0, 'case' 0, 'hlig' 0, 'calt' 0, 'swsh' 0, 'hist' 0, 'kern' 1, 'locl' 0, 'rlig' 0, 'medi' 0, 'init' 0, 'isol' 0, 'fina' 0, 'mark' 0, 'mkmk' 0, 'ss00' 0, 'ss01' 0, 'ss02' 0, 'ss03' 0, 'ss04' 0, 'ss05' 0, 'ss06' 0, 'ss07' 0}
+
+@font-face {
+font-family:'ALS_Hauss';
+src: url("../fonts/ALS_Hauss/ALSHauss-Hairline.woff") format("woff");
+font-weight:100;
+font-style:normal
+}
+@font-face {
+font-family:'ALS_Hauss';
+src:url("../fonts/ALS_Hauss/ALSHauss-Light.woff") format("woff");
+font-weight:200;
+font-style:normal
+}
+@font-face {
+font-family:'ALS_Hauss';
+src:url("../fonts/ALS_Hauss/ALSHauss-Book.woff") format("woff");
+font-weight:300;
+font-style:normal
+}
+@font-face {
+font-family:'ALS_Hauss';
+src:url("../fonts/ALS_Hauss/ALSHauss-Regular.woff") format("woff");
+font-weight:400;
+font-style:normal
+}
+@font-face {
+font-family:'ALS_Hauss';
+src:url("../fonts/ALS_Hauss/ALSHauss-Medium.woff") format("woff");
+font-weight:500;
+font-style:normal
+}
+@font-face {
+font-family:'ALS_Hauss';
+src:url("../fonts/ALS_Hauss/ALSHauss-Bold.woff") format("woff");
+font-weight:700;
+font-style:normal
+}
+@font-face {
+font-family:'ALS_Hauss';
+src:url("../fonts/ALS_Hauss/ALSHauss-Black.woff") format("woff");
+font-weight:900;
+font-style:normal
+}
