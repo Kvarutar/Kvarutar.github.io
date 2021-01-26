@@ -40,7 +40,7 @@ $(document).ready(function(){
         nextArrow: "<div class='next'><img src='img/right.svg' class='next__img' alt='next'></div>",
         responsive: [
             {
-                breakpoint: 1025,
+                breakpoint: 1325,
                 settings: {
                     centerMode: true,
                     centerPadding: '100px',
