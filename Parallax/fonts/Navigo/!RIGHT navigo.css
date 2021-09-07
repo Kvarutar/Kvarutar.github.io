@@ -1,0 +1,28 @@
+@font-face {
+font-family:'Navigo';
+src:url("../fonts/Navigo/Navigo-Light-Web.eot");
+src:url("../fonts/Navigo/Navigo-Light-Web.eot#iefix") format("embedded-opentype"),url("../fonts/Navigo/Navigo-Light-Web.woff") format("woff"),url("../fonts/Navigo/Navigo-Light-Web.ttf") format("truetype"),url("../fonts/Navigo/Navigo-Light-Web.svg#Navigo Light") format("svg");
+font-weight:300;
+font-style:normal
+}
+@font-face {
+font-family:'Navigo';
+src:url("../fonts/Navigo/Navigo-Regular-Web.eot");
+src:url("../fonts/Navigo/Navigo-Regular-Web.eot#iefix") format("embedded-opentype"),url("../fonts/Navigo/Navigo-Regular-Web.woff") format("woff"),url("../fonts/Navigo/Navigo-Regular-Web.ttf") format("truetype"),url("../fonts/Navigo/Navigo-Regular-Web.svg#Navigo") format("svg");
+font-weight:400;
+font-style:normal
+}
+@font-face {
+font-family:'Navigo';
+src:url("../fonts/Navigo/Navigo-Bold-Web.eot");
+src:url("../fonts/Navigo/Navigo-Bold-Web.eot#iefix") format("embedded-opentype"),url("../fonts/Navigo/Navigo-Bold-Web.woff") format("woff"),url("../fonts/Navigo/Navigo-Bold-Web.ttf") format("truetype"),url("../fonts/Navigo/Navigo-Bold-Web.svg#Navigo Bold") format("svg");
+font-weight:700;
+font-style:normal
+}
+@font-face {
+font-family:'Navigo';
+src:url("../fonts/Navigo/Navigo-Black-Web.eot");
+src:url("../fonts/Navigo/Navigo-Black-Web.eot#iefix") format("embedded-opentype"),url("../fonts/Navigo/Navigo-Black-Web.woff2") format("woff2"),url("../fonts/Navigo/Navigo-Black-Web.woff") format("woff"),url("../fonts/Navigo/Navigo-Black-Web.ttf") format("truetype"),url("../fonts/Navigo/Navigo-Black-Web.svg#Navigo Black") format("svg");
+font-weight:900;
+font-style:normal
+}
