@@ -1,0 +1,182 @@
+{
+    "days": [
+        {
+            "id": "пн",
+            "day": "ПН",
+            "idNum": 1,
+            "subj": [
+                {
+                    "subjectNameOdd": "ИСИТ (лекция)",
+                    "subjectNameEven": "ИСИТ (лекция)",
+                    "time": "11:40 - 13:05",
+                    "place": "",
+                    "cab": "ДО"
+                },
+                {
+                    "subjectNameOdd": "Программная инженерия (практика)",
+                    "subjectNameEven": "Программная инженерия (практика)",
+                    "time": "13:45 - 15:10",
+                    "place": "",
+                    "cab": "ДО"
+                },
+                {
+                    "subjectNameOdd": "Прикладной дизайн (практика)",
+                    "subjectNameEven": "Прикладной дизайн (практика)",
+                    "time": "15:20 - 16:45",
+                    "place": "",
+                    "cab": "ДО"
+                }
+            ]
+        },
+        {
+            "id": "вт",
+            "day": "ВТ",
+            "idNum": 2,
+                "subj": [{
+                    "subjectNameOdd": "",
+                    "subjectNameEven": "Производственная практика",
+                    "time": "10:05 - 11:30",
+                    "place": "Вознес",
+                    "cab": "ПТД"
+                },
+                {
+                    "subjectNameOdd": "",
+                    "subjectNameEven": "Производственная практика",
+                    "time": "11:40 - 13:05",
+                    "place": "Вознес",
+                    "cab": "ПТД"
+                },
+                {
+                    "subjectNameOdd": "",
+                    "subjectNameEven": "Физра",
+                    "time": "13:45 - 15:10",
+                    "place": "Вознес",
+                    "cab": "Спортич"
+                },
+                {
+                    "subjectNameOdd": "Выпей чай и отдохни, лапочка",
+                    "subjectNameEven": "",
+                    "time": "Весь день",
+                    "place": "",
+                    "cab": ""
+                }
+            ]
+        },
+        {
+            "id": "ср",
+            "day": "СР",
+            "idNum": 3,
+            "subj": [
+                {
+                    "subjectNameOdd": "Физра",
+                    "subjectNameEven": "Физра",
+                    "time": "11:40 - 13:05",
+                    "place": "Вознес",
+                    "cab": "Спортич"
+                },
+                {
+                    "subjectNameOdd": "Мультимедия (лекция)",
+                    "subjectNameEven": "Разработка IT-проекта (лекция)",
+                    "time": "13:45 - 15:10",
+                    "place": "Вознес",
+                    "cab": "452 каб."
+                },
+                {
+                    "subjectNameOdd": "Разработка IT-проекта (практика)",
+                    "subjectNameEven": "Разработка IT-проекта (практика)",
+                    "time": "15:20 - 16:45",
+                    "place": "Вознес",
+                    "cab": "484 каб."
+                },
+                {
+                    "subjectNameOdd": "ИСИТ (практика)",
+                    "subjectNameEven": "ИСИТ (практика)",
+                    "time": "16:55 - 18:20",
+                    "place": "Вознес",
+                    "ca": "459 каб."
+                }
+            ]
+        },
+        {
+            "id": "чт",
+            "day": "ЧТ",
+            "idNum": 4,
+            "subj": [{
+                    "subjectNameOdd": "Психология пользователя (лекция)",
+                    "subjectNameEven": "Программная инженерия (лекция)",
+                    "time": "10:05 - 11:30",
+                    "place": "",
+                    "cab": "ДО"
+                },
+                {
+                    "subjectNameOdd": "Веб-дизайн (лекция)",
+                    "subjectNameEven": "Прикладной дизайн (лекция)",
+                    "time": "11:40 - 13:05",
+                    "place": "",
+                    "cab": "ДО"
+                },
+                {
+                    "subjectNameOdd": "",
+                    "subjectNameEven": "Окошечко, отдыхай",
+                    "time": "13:45 - 15:10",
+                    "place": "",
+                    "cab": "ДО"
+                },
+                {
+                    "subjectNameOdd": "",
+                    "subjectNameEven": "Психология пользователя (практика)",
+                    "time": "15:20 - 16:45",
+                    "place": "",
+                    "cab": "ДО"
+                }
+            ]
+        },
+        {
+            "id": "пт",
+            "day": "ПТ",
+            "idNum": 5,
+            "subj": [{
+                    "subjectNameOdd": "Выпей чай и отдохни, лапочка",
+                    "subjectNameEven": "Выпей чай и отдохни, лапочка",
+                    "time": "Целый день",
+                    "place": "",
+                    "cab": ""
+                }
+            ]
+        },
+        {
+            "id": "сб",
+            "day": "СБ",
+            "idNum": 6,
+            "subj": [
+                {
+                    "subjectNameOdd": "Веб-дизайн (практика)",
+                    "subjectNameEven": "Веб-дизайн (практика)",
+                    "time": "11:40 - 13:05",
+                    "place": "Вознес",
+                    "cab": "ПТД"
+                },
+                {
+                    "subjectNameOdd": "Мультимедия (практика)",
+                    "subjectNameEven": "Мультимедия (практика)",
+                    "time": "13:45 - 15:10",
+                    "place": "Вознес",
+                    "cab": "459 каб"
+                }
+            ]
+        },
+        {
+            "id": "вс",
+            "day": "ВС",
+            "idNum": 0,
+            "subj": [{
+                    "subjectNameOdd": "нет пар",
+                    "subjectNameEven": "нет пар",
+                    "time": "",
+                    "place": "",
+                    "cab": ""
+                }
+            ]
+        }
+    ]
+}
