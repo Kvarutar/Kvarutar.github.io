@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Futura PT New';
+    src: url('4.eot');
+    src: local('4'), local('4'),
+        url('4.eot?#iefix') format('embedded-opentype'),
+        url('4.woff') format('woff'),
+        url('4.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT New';
+    src: url('3.eot');
+    src: local('3'), local('3'),
+        url('3.eot?#iefix') format('embedded-opentype'),
+        url('3.woff') format('woff'),
+        url('3.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT New';
+    src: url('5.eot');
+    src: local('5'), local('5'),
+        url('5.eot?#iefix') format('embedded-opentype'),
+        url('5.woff') format('woff'),
+        url('5.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT New';
+    src: url('2.eot');
+    src: local('2'), local('2'),
+        url('2.eot?#iefix') format('embedded-opentype'),
+        url('2.woff') format('woff'),
+        url('2.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT New';
+    src: url('1.eot');
+    src: local('1'), local('1'),
+        url('1.eot?#iefix') format('embedded-opentype'),
+        url('1.woff') format('woff'),
+        url('1.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
