@@ -1,0 +1,29 @@
+.header
+    padding: 32px 0px 39px 0px
+    &__menu
+        list-style-type: none
+        display: flex
+    &-item
+        margin-right: 27px
+        position: relative
+        &:last-child
+            margin-right: 0
+        a
+            text-decoration: none
+            font-style: normal
+            font-weight: 400
+            font-size: 24px
+            color: #262626
+        &::after
+            content: " "
+            position: absolute
+            bottom: -3px
+            left: 0
+            width: 0px
+            height: 3px
+            background: linear-gradient(270deg, #FF8686 0%, #36ABFF 100%)
+            transition: 0.3s all
+        &:hover::after
+            width: 100%
+            transition: 0.3s all
+            
