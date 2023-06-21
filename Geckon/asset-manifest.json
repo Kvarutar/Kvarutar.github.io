@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Geckon/static/css/main.a020742c.css",
-    "main.js": "/Geckon/static/js/main.1e63eed2.js",
+    "main.css": "/Geckon/static/css/main.01e16433.css",
+    "main.js": "/Geckon/static/js/main.dffcdd07.js",
     "static/js/787.71df535f.chunk.js": "/Geckon/static/js/787.71df535f.chunk.js",
     "static/media/Inter-ThinItalicBETA.eot": "/Geckon/static/media/Inter-ThinItalicBETA.d48d71c60397c964c3c3.eot",
     "static/media/Inter-ThinItalicBETA.ttf": "/Geckon/static/media/Inter-ThinItalicBETA.ab1bddda75ef8313afa1.ttf",
@@ -90,12 +90,12 @@
     "static/media/close_300.svg": "/Geckon/static/media/close_300.dc4907afcd82a47930abd6d2fe26bd42.svg",
     "static/media/close.svg": "/Geckon/static/media/close.c76ad28c33323dfe86ec1e4bcf9c5b6c.svg",
     "static/media/push_fill.svg": "/Geckon/static/media/push_fill.7f4285c2f34a8a06c14bc81f8439bf6b.svg",
-    "main.a020742c.css.map": "/Geckon/static/css/main.a020742c.css.map",
-    "main.1e63eed2.js.map": "/Geckon/static/js/main.1e63eed2.js.map",
+    "main.01e16433.css.map": "/Geckon/static/css/main.01e16433.css.map",
+    "main.dffcdd07.js.map": "/Geckon/static/js/main.dffcdd07.js.map",
     "787.71df535f.chunk.js.map": "/Geckon/static/js/787.71df535f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a020742c.css",
-    "static/js/main.1e63eed2.js"
+    "static/css/main.01e16433.css",
+    "static/js/main.dffcdd07.js"
   ]
 }
