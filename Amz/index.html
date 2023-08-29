@@ -12,18 +12,27 @@
 <body>
     <main>
         <section class="promo">
+            <ul class="header__menu header__menu_mobile">
+                <div class="black">
+                    <li><a href="#about"><h4>О&nbsp;нас</h4></a></li>
+                    <li><a href="#goods"><h4>Товары</h4></a></li>
+                    <li><a href="#contacts"><h4>Контакты</h4></a></li>
+                    <img src="icons/x.svg" alt="close" class="header__close">
+                </div>
+            </ul>
             <div class="promo__bg">
                 <img src="img/promo@2x.png" alt="promo_bg">
             </div>
             <div class="container">
                 <header class="header">
                     <div class="header__wrapper">
-                        <img src="" alt="logo" class="header__logo">
+                        <img src="icons/logo.svg" alt="logo" class="header__logo">
                         <ul class="header__menu">
                             <li><a href="#about"><h4>О&nbsp;нас</h4></a></li>
                             <li><a href="#goods"><h4>Товары</h4></a></li>
                             <li><a href="#contacts"><h4>Контакты</h4></a></li>
                         </ul>
+                        <img src="icons/burger.svg" alt="burger" class="header__burger">
                     </div>
                 </header>
                 <div class="promo__wrapper">
@@ -73,39 +82,34 @@
                 <h2 class="goods__title title_section">Товары</h2>
                 <div class="goods__wrapper">
                     <div class="goods-item">
-                        <div class="goods-item__wrapper">
-                            <img src="img/bread@2x.png" alt="bread">
-                            <p>&laquo;Булка бездрожжевая из&nbsp;муки 1&nbsp;сорта&raquo;</p>
+                        <div class="goods-item__content">
+                            <div class="goods-item__wrapper">
+                                <img src="img/bread@2x.png" alt="bread">
+                                <p>&laquo;Булка бездрожжевая из&nbsp;муки 1&nbsp;сорта&raquo;</p>
+                            </div>
+                            <div class="goods-item__price"><h2>от&nbsp;100&#8381;</h2></div>
                         </div>
-                        <div class="goods-item__price"><h2>от&nbsp;100&#8381;</h2></div>
-                    </div>
-                    <div class="goods-item">
-                        <div class="goods-item__wrapper">
-                            <img src="img/bread@2x.png" alt="bread">
-                            <p>&laquo;Булка бездрожжевая из&nbsp;муки 1&nbsp;сорта&raquo;</p>
+
+                        <div class="goods-item__modal">
+                            <div class="goods-item__modal--wrapper card">
+                                <img src="icons/x.svg" alt="close" class="card__close">
+                                <p class="card__title">&laquo;Булка бездрожжевая из&nbsp;муки 1&nbsp;сорта&raquo;</p>
+                                <img src="img/bread@2x.png" alt="bread" class="card__img">
+                                <p class="card__descr">Самая клевая булка, всем булкам булка из&nbsp;лучших сортов пшеницы и&nbsp;еще бездрожжевая</p>
+                                <p class="card__price">100&#8381;</p>
+                                <div class="card__counts">
+                                    <div class="card__counts-item">
+                                        <p>1 ШТ</p>
+                                    </div>
+                                    <div class="card__counts-item">
+                                        <p>2 ШТ</p>
+                                    </div>
+                                    <div class="card__counts-item">
+                                        <p>3 ШТ</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="goods-item__price"><h2>от&nbsp;100&#8381;</h2></div>
-                    </div>
-                    <div class="goods-item">
-                        <div class="goods-item__wrapper">
-                            <img src="img/bread@2x.png" alt="bread">
-                            <p>&laquo;Булка бездрожжевая из&nbsp;муки 1&nbsp;сорта&raquo;</p>
-                        </div>
-                        <div class="goods-item__price"><h2>от&nbsp;100&#8381;</h2></div>
-                    </div>
-                    <div class="goods-item">
-                        <div class="goods-item__wrapper">
-                            <img src="img/bread@2x.png" alt="bread">
-                            <p>&laquo;Булка бездрожжевая из&nbsp;муки 1&nbsp;сорта&raquo;</p>
-                        </div>
-                        <div class="goods-item__price"><h2>от&nbsp;100&#8381;</h2></div>
-                    </div>
-                    <div class="goods-item">
-                        <div class="goods-item__wrapper">
-                            <img src="img/bread@2x.png" alt="bread">
-                            <p>&laquo;Булка бездрожжевая из&nbsp;муки 1&nbsp;сорта&raquo;</p>
-                        </div>
-                        <div class="goods-item__price"><h2>от&nbsp;100&#8381;</h2></div>
                     </div>
                 </div>
                 <button class="btn"><h4>БОЛЬШЕ</h4></button>
