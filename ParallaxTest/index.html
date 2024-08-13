@@ -1,0 +1,628 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShuttleX</title>
+    <script type="module" crossorigin src="/assets/index-C4zysHgW.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DUcmzcJf.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <img src="/assets/logo-DNbnPIeN.svg" alt="logo" class="logo" />
+        <!-- <nav class="navigation header__navigation">
+          <ul class="navigation__wrapper">
+          <li class="navigation__item navigation__item_active">
+          <a href="#" class="link link_dark">Home</a>
+          </li>
+          <li class="navigation__item">
+          <a href="#" class="link link_dark">Contractor</a>
+          </li>
+          <li class="navigation__item">
+          <a href="#" class="link link_dark">Passenger</a>
+          </li>
+          <li class="navigation__item">
+          <a href="#" class="link link_dark">About us</a>
+          </li>
+          </ul>
+          </nav>
+          <div class="header__languages">
+          <img src="assets/icons/header/arrow_down.svg" alt="down" />
+          <h5>ENG</h5>
+          </div> -->
+      </div>
+    </header>
+
+    <main>
+      <section class="section promo">
+        <div class="container section__container promo__container">
+          <div class="section__info promo__info">
+            <div class="promo__item">
+              <h4 class="section__subtitle text-animation" data-start-delay="0.1">Token Product</h4>
+              <h2 class="section__title text-animation" data-start-delay="0.2" data-is-per-line="true">
+                The Most Innovative
+                <span class="section__title_accent">Taxi</span>
+              </h2>
+              <!-- <div class="section__buttons">
+                <a href="#" class="btn btn_mode1">for IPhone</a>
+                <a href="#" class="btn btn_mode2">for Android</a>
+                </div> -->
+            </div>
+            <div class="promo__roles promo__item">
+              <div class="text-animation" data-start-delay="0.1">
+                <p class="promo__role">Driver</p>
+                <p class="promo__role-description">ShuttleX enhances<br />transparency</p>
+              </div>
+              <div class="text-animation" data-start-delay="0.1">
+                <p class="promo__role">Passengers</p>
+                <p class="promo__role-description">We are committed to<br />delivering the best user.</p>
+              </div>
+            </div>
+          </div>
+          <div class="section__content promo__content">
+            <img src="/assets/promo-De1SAjfV.webp" alt="promo" />
+            <img class="promo__bill" src="data:image/webp;base64,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" alt="bill" id="bill" />
+            <img
+              class="promo__notification"
+              src="/assets/promo_notification-bKSfssP4.webp"
+              alt="notification"
+              id="notification"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section crypto">
+        <!-- <div class="crypto__phone">
+          <img src="assets/images/main/crypto.webp" alt="crypto">
+          </div>
+          <div class="crypto__blocks">
+          <div class="crypto__wrapper">
+          <div class="crypto__line">
+          <div class="crypto__block">
+          <div>
+          <img src="assets/icons/dashes.svg" alt="dash">
+          </div>
+          </div>
+          <div class="crypto__block">
+          <div>
+          <img src="assets/icons/dashes.svg" alt="dash">
+          </div>
+          </div>
+          <div class="crypto__block">
+          <div><img src="assets/icons/dashes.svg" alt="dash"></div>
+          </div>
+          <div class="crypto__block">
+          <div><img src="assets/icons/dashes.svg" alt="dash"></div>
+          </div>
+          <div class="crypto__block">
+          <div><img src="assets/icons/dashes.svg" alt="dash"></div>
+          </div>
+          </div>
+          <div class="crypto__line">
+          <div class="crypto__block">
+          <div><img src="assets/icons/dashes.svg" alt="dash"></div>
+          </div>
+          <div class="crypto__block">
+          <div><img src="assets/icons/dashes.svg" alt="dash"></div>
+          </div>
+          <div class="crypto__block">
+          <div><img src="assets/icons/dashes.svg" alt="dash"></div>
+          </div>
+          <div class="crypto__block">
+          <div><img src="assets/icons/dashes.svg" alt="dash"></div>
+          </div>
+          <div class="crypto__block">
+          <div><img src="assets/icons/dashes.svg" alt="dash"></div>
+          </div>
+          </div>
+          <div class="crypto__line">
+          <div class="crypto__block">
+          <div><img src="assets/icons/dashes.svg" alt="dash"></div>
+          </div>
+          <div class="crypto__block">
+          <div><img src="assets/icons/dashes.svg" alt="dash"></div>
+          </div>
+          <div class="crypto__block">
+          <div><img src="assets/icons/dashes.svg" alt="dash"></div>
+          </div>
+          <div class="crypto__block">
+          <div><img src="assets/icons/dashes.svg" alt="dash"></div>
+          </div>
+          <div class="crypto__block">
+          <div><img src="assets/icons/dashes.svg" alt="dash"></div>
+          </div>
+          </div>
+          <div class="crypto__line">
+          <div class="crypto__block">
+          <div><img src="assets/icons/dashes.svg" alt="dash"></div>
+          </div>
+          <div class="crypto__block">
+          <div><img src="assets/icons/dashes.svg" alt="dash"></div>
+          </div>
+          <div class="crypto__block">
+          <div><img src="assets/icons/dashes.svg" alt="dash"></div>
+          </div>
+          <div class="crypto__block">
+          <div><img src="assets/icons/dashes.svg" alt="dash"></div>
+          </div>
+          <div class="crypto__block">
+          <div><img src="assets/icons/dashes.svg" alt="dash"></div>
+          </div>
+          </div>
+          </div>
+          </div> -->
+        <div class="container section__container">
+          <div class="section__content crypto__content">
+            <img src="/assets/crypto-DImAtV8r.webp" alt="promo" class="crypto__main" />
+            <img src="/assets/crypto_cards-BgRAhHAv.webp" alt="cards" id="cards" />
+            <img src="/assets/crypto_eth-BW7uAUZF.webp" alt="etherium" id="eth" />
+            <img src="/assets/crypto_tariff-BPb0-E64.webp" alt="tariff" id="tariff" />
+          </div>
+          <div class="section__info">
+            <h4 class="section__subtitle text-animation" data-start-delay="0.1">For Passengers</h4>
+            <h2 class="section__title text-animation" data-start-delay="0.2" data-is-per-line="true">
+              Why Not Pay<br />
+              Directly With<br />
+              <span class="section__title_accent">Crypto</span>
+            </h2>
+            <p class="section__description text-animation" data-start-delay="0.5" data-is-per-line="true">
+              Why not pay directly with crypto in a few<br />clicks via smart contracts?
+            </p>
+            <div class="section__buttons">
+              <!-- <a href="#" class="btn btn_mode1"> Learn more <img src="assets/icons/arrow.svg" alt="" /> </a> -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section join">
+        <div class="container section__container join__container">
+          <div class="section__info join__info">
+            <h4 class="section__subtitle text-animation" data-start-delay="0.1">For Drive</h4>
+            <h2 class="section__title text-animation" data-start-delay="0.2" data-is-per-line="true">
+              Join To<br />
+              Drive With Us&nbsp;<br />
+              <span class="section__title_accent">Start $5.99</span>
+            </h2>
+            <p class="section__description text-animation" data-start-delay="0.5" data-is-per-line="true">
+              Pay $89.9 in&nbsp;advance and save money<br />while getting the most out of&nbsp;the app.
+            </p>
+            <div class="section__buttons">
+              <!-- <a href="#" class="btn btn_mode1"> Learn more <img src="assets/icons/arrow.svg" alt="" /> </a> -->
+            </div>
+          </div>
+          <div class="section__content join__content">
+            <img src="/assets/crypto-DImAtV8r.webp" alt="promo" />
+            <img src="data:image/webp;base64,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" alt="payment" id="payment" />
+          </div>
+        </div>
+      </section>
+
+      <section class="benefits">
+        <div class="container benefits__container">
+          <div class="oval">
+            <div class="oval__wrapper">
+              <div class="oval__elements">
+                <div class="oval__dash oval__dash_horizontal"></div>
+                <div class="oval__dash oval__dash_15 benefits__dash_to_0"></div>
+                <div class="oval__dash oval__dash_30 benefits__dash_to_0"></div>
+                <div class="oval__dash oval__dash_45 benefits__dash_to_0"></div>
+                <div class="oval__dash oval__dash_60 benefits__dash_to_0"></div>
+                <div class="oval__dash oval__dash_75 benefits__dash_to_0"></div>
+                <div class="oval__dash oval__dash_vertical"></div>
+                <div class="oval__dash oval__dash_105 benefits__dash_to_90"></div>
+                <div class="oval__dash oval__dash_120 benefits__dash_to_90"></div>
+                <div class="oval__dash oval__dash_135 benefits__dash_to_90"></div>
+                <div class="oval__dash oval__dash_150 benefits__dash_to_90"></div>
+                <div class="oval__dash oval__dash_165 benefits__dash_to_90"></div>
+              </div>
+            </div>
+          </div>
+
+          <h1 class="benefits__title text-animation" data-start-delay="0.1" data-is-per-line="true">
+            Innovative<br />Product
+          </h1>
+          <div class="benefits__wrapper">
+            <div class="benefits__dash benefits__dash_horizontal"></div>
+            <div class="benefits__dash benefits__dash_vertical"></div>
+            <img class="benefits__image benefits__image_mobile" src="/assets/benefits-DO1GIlcc.webp" alt="benefits" />
+            <div class="benefits__item">
+              <div
+                class="benefits__text benefits__text_left text-animation"
+                data-start-delay="0.1"
+                data-is-per-line="true"
+              >
+                <p class="benefits__subtitle">Play Games</p>
+                <p class="benefits__description">
+                  Pay $89.9 in&nbsp;advance and save money while getting the most out of&nbsp;the app.
+                </p>
+              </div>
+              <div class="benefits__line"></div>
+              <div
+                class="benefits__text benefits__text_left text-animation"
+                data-start-delay="0.3"
+                data-is-per-line="true"
+              >
+                <p class="benefits__subtitle">Take Rides</p>
+                <p class="benefits__description">
+                  Pay $89.9 in&nbsp;advance and save money while getting the most out of&nbsp;the app.
+                </p>
+              </div>
+            </div>
+            <img class="benefits__image" src="/assets/benefits-DO1GIlcc.webp" alt="benefits" />
+            <div class="benefits__item">
+              <div
+                class="benefits__text benefits__text_right text-animation"
+                data-start-delay="0.5"
+                data-is-per-line="true"
+              >
+                <p class="benefits__subtitle">Earn Tokens</p>
+                <p class="benefits__description">
+                  It is a long established fact that a reader will be distracted by the readable content of a page.
+                </p>
+              </div>
+              <div class="benefits__line"></div>
+              <div
+                class="benefits__text benefits__text_right text-animation"
+                data-start-delay="0.7"
+                data-is-per-line="true"
+              >
+                <p class="benefits__subtitle">Comfortable</p>
+                <p class="benefits__description">
+                  Why not pay directly with crypto in a few clicks via smart contracts?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="popup">
+          <div class="slider">
+            <div class="slides">
+              <div class="popup__close">
+                <img src="data:image/svg+xml,%3csvg%20width='18'%20height='18'%20viewBox='0%200%2018%2018'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M12.384%203.89866L14.1013%205.61592L10.7139%209.00332L14.0979%2012.3873L12.3874%2014.0978L9.00339%2010.7138L5.61599%2014.1012L3.89873%2012.3839L7.28613%208.99654L3.90212%205.61252L5.6126%203.90205L8.99661%207.28606L12.384%203.89866Z'%20fill='white'/%3e%3c/svg%3e" alt="close" />
+              </div>
+              <div class="slide active" id="slide-token">
+                <div class="slide__title">
+                  <h3>Kryptobara<br />Token</h3>
+                  <h3>1</h3>
+                </div>
+                <div class="slide__content">
+                  <p>
+                    ShuttleX enhances transparency and creates a&nbsp;driver and passenger-centric approach for the
+                    ridesharing industry. We&nbsp;are committed to&nbsp;delivering the best user experience through
+                    innovative and unique approaches. <br />
+                    <br />
+                    <br />
+                    <br />
+                    By&nbsp;accelerating blockchain adoption and implementing our features and SaaS business model,
+                    we&nbsp;drive the shift towards decentralized operations, fostering innovation and trust for all
+                    members.
+                  </p>
+                  <img src="/assets/features_token-BPHL6mJT.webp" alt="Kryptobara token" />
+                </div>
+              </div>
+              <div class="slide" id="slide-contract">
+                <div class="slide__title">
+                  <h3>Smart<br />Contracts</h3>
+                  <h3>2</h3>
+                </div>
+                <div class="slide__content">
+                  <p>
+                    ShuttleX enhances transparency and creates a&nbsp;driver and passenger-centric approach for the
+                    ridesharing industry. We&nbsp;are committed to&nbsp;delivering the best user experience through
+                    innovative and unique approaches. <br />
+                    <br />
+                    <br />
+                    <br />
+                    By&nbsp;accelerating blockchain adoption and implementing our features and SaaS business model,
+                    we&nbsp;drive the shift towards decentralized operations, fostering innovation and trust for all
+                    members.
+                  </p>
+                  <img src="data:image/webp;base64,UklGRmoFAABXRUJQVlA4WAoAAAAQAAAABQIABwEAQUxQSHEDAAABoPP8/9s2+sJypUGbcWNMRADTKwEC6ZrSey+KqPTeEyJTvbtUrvIquI0e23ivQJpu9MhJs1/CNWkMft//zwIYERMAFvYNuZ7Ix4csELHH9QTvdtHA8oRvkaDLE38PB1z5uRSwPAL2MmCYAUMMGGeAywCPgqsHXAaMMmCQAQ4DehiQYwCG5OeAgh2u9NwcB5BzZefmQEPbldu43QEidvQNrhH5oNWBzP+Z/8nubNy1W+ThxmEm2MFuwQcWDYZ3C3+YBNZu8dscCOQXUGB4NwEdBmxkwEYGhAwIGLCbgqsHAgbsYECeAT4DbAZ0MwAb5eeDgrlAekE3B9AdyC7oBg29QG6hlwMRc05+vcjzwzlk/s/838bbPxk9Efndk1uY4EVPBB+N0GDrE+FvJcHwE/F7HIjkF1FgyxMC+gw4yYCTDLjHgIgBTyi4eiBiwFUGHGTAIQZ4DLAZgBPyOwQKdpelV7Y5ALssu7INGu4uy+3e7h4QsccvHBJ5YUsPMv9n/m/jva0UfxH5+1LIBD/+Ivh4LQ3CL8IPSbD2i/h9DsTyiykQfiHgNgaUGFBiwHsGxAz4QsHVAzEDnjHgFAMuMcBngMMAlOR3CRTsjaUXOxyAE8sudkDDQ7Hc3h/qBRF7t526JPJTYS8y/2f+/6WGz5Oqoa88L7TamlSNfpJvUqga/wKAdVUFuAVINECCg1UVGL7QAc8rOiCpthVMdMDnog64t0UHDOO5BrgHWIn5S4YBDCemLxlG03OJyaucs9DSCm/cM/Q3DlrI/J/5v23ngY+TS4Z+7uPRVsHkktGf2tDk6JLxPwpgw5ICDIBJDTCFo0sq8MAnHfBxTgdMLbUVnNQBE490QBzoABcfNUAM9E+avykXwNik6Zty0TSaNHlzUT9a9h949NbQPzraj8z/mf/bdp6aqTcM/fJMsVWh3jD6tZ1Nig3jXwSws6EADwJ1DVBDsaECT03rgJllHVBrtBWs64A/v+qAykEdkMeMBqgAA3XzV8sDyNdNXy2Ppu/qJm/53QBaDpz8UjH0X4oDyPyf+f+Xemk+/dvQr8zfa3Uo/dvop2GTu38b/7sAwr8V4CEg1QAp7v2tAi/N64CFFR2Q/t1WMNUBf03ogNlDOsDHvAaYBZzU/KU+AD81famPpl9Sk7fyxUFL59LErKGfuOfg/wBWUDgg0gEAALAyAJ0BKgYCCAE+iTaVR6UjIiEzKACgEQlpbuF31gigH6AfwB3AH4AfoB/AE/tK3SK5lLq+/c/fufv3P3Cqcho0lq5DgYhwMQ4GIcDEOBiGJ1d7tqbZgqmKmnkABOKLSWrkOBiHAxDMvlMVw7NAE4dmgEIlq5DgYhwMQ35NpKIQ5tmCqYqaeQAE+mFR/37n79z9+PqSpipp5AATh2aD79z9+5+/c/fuDxEOFWtG2YKpipp5AAhEtXIcDEOBiG/UyzQBOHZoAnDs0H37n79z9+5+/cXap2ktXIcDEOBdLLh2aAJw7NAE4bwgCcOzQBOHZoAn1iAvNjQtpku4QF5saFtMl3CAvNjQtpkbotAE4dmgCcOzQBOHZoAnDs0ATh2ZpJw7NAE4dmgCcOzQBOHZoAnDs0ATdqaAJw7NAE4dmgCcOzQBOHZoAnDszSTh2aAJw7NAE4dmgCcOzQBOHZoAm7U0ATh2aAJw7NAE4dmgCcOzQBOHZmknDs0ATh2aAJw7NAE4dmgCcOzQBPphUf9+5+/c/fufv3P37n79z9+3QAD+/7ajn/98sADmdWABzOrAA4iyRK+Akvw2JXxCZNpLF39QcVzJwWh2Bt2P9BRPMAAAAAA=" alt="Smart contracts" />
+                </div>
+              </div>
+              <div class="slide" id="slide-gamification">
+                <div class="slide__title">
+                  <h3>Gamification</h3>
+                  <h3>3</h3>
+                </div>
+                <div class="slide__content">
+                  <p>
+                    ShuttleX enhances transparency and creates a&nbsp;driver and passenger-centric approach for the
+                    ridesharing industry. We&nbsp;are committed to&nbsp;delivering the best user experience through
+                    innovative and unique approaches. <br />
+                    <br />
+                    <br />
+                    <br />
+                    By&nbsp;accelerating blockchain adoption and implementing our features and SaaS business model,
+                    we&nbsp;drive the shift towards decentralized operations, fostering innovation and trust for all
+                    members.
+                  </p>
+                  <img src="data:image/webp;base64,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" alt="Gamification" />
+                </div>
+              </div>
+              <div class="slide" id="slide-safety">
+                <div class="slide__title">
+                  <h3>Safety</h3>
+                  <h3>4</h3>
+                </div>
+                <div class="slide__content">
+                  <p>
+                    ShuttleX enhances transparency and creates a&nbsp;driver and passenger-centric approach for the
+                    ridesharing industry. We&nbsp;are committed to&nbsp;delivering the best user experience through
+                    innovative and unique approaches. <br />
+                    <br />
+                    <br />
+                    <br />
+                    By&nbsp;accelerating blockchain adoption and implementing our features and SaaS business model,
+                    we&nbsp;drive the shift towards decentralized operations, fostering innovation and trust for all
+                    members.
+                  </p>
+                  <img src="data:image/webp;base64,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" alt="Safety" />
+                </div>
+              </div>
+              <div class="slide" id="slide-dao">
+                <div class="slide__title">
+                  <h3>DAO</h3>
+                  <h3>5</h3>
+                </div>
+                <div class="slide__content">
+                  <p>
+                    ShuttleX enhances transparency and creates a&nbsp;driver and passenger-centric approach for the
+                    ridesharing industry. We&nbsp;are committed to&nbsp;delivering the best user experience through
+                    innovative and unique approaches. <br />
+                    <br />
+                    <br />
+                    <br />
+                    By&nbsp;accelerating blockchain adoption and implementing our features and SaaS business model,
+                    we&nbsp;drive the shift towards decentralized operations, fostering innovation and trust for all
+                    members.
+                  </p>
+                  <img src="data:image/webp;base64,UklGRqQPAABXRUJQVlA4WAoAAAAQAAAAGwIA9AEAQUxQSGQNAAABHAVt20g1f9j77hhExASkRY7wR767jSZ9oNjV7B+E9DzLtPQ4O4mmbeUWlmxHjiTJlWPLev+Hba/V9yMiJoCWArBhY0kIEUwwRhgTRBBC97/m2+k0tpS0w35ExAQkBuJWecip5v+aigzeN/j+Y2mH+rvPo21fPGpifrUe1RSHLD7rqllsRXzuWXSGbD7/VzWGbL6mV4Gx+bpexVXU1/6ZsPDw9busdvMI3SSF3aPsgiL1OGdWUzGP1E1LzYP1R0ns4e5HR+wRVxWxx1w1xB70fhTUPOxt+tk8cDf1kEaGpR712Id22KMvyikevmfdoMaHn266Z1hUQ56iZ9FIDuiaqZ7kzpLRLNAVUz3NnQWjeaDrpXiiO8tlZIKmFvJUP7VwLihi0WSGVjZPdmulZ4MiFU1nKIU8XVdKzQcmlCOhJhRNaOpk84RdJ3tGyDLpKb0ykZSaTM6Upkw85U8lW06ukpITVFKTMpFwUq9IjqSqSM6khkg86aWRLautkT0rmER6Wq9EJK2hEPS0l0JKXjsLpOeFIhBJbOiDPPFPHzUzZHkcqTV5WGpLHbvnnsUxkmvaIE9+aaNmB5PGmV5Xxubpb2WM/PDqgvwGLl20O4AiC70FSxXV76GJQm/C1ET1u2iS0NuwFMF+H4seSG/E0sPwO/mqgfxWehaD3gt0LTS/m48SSG/HUsLw+9l00PyGblMB2R3Bl0Wgfk+HBtjv6quAimPdxj/b54Ivs88cJzvZ9+FsO/cGTrcxr+N8C+86Dng/rGs44m2cqzhkN8ZVHLMb3xoO2h+2dRz1frjWcdqVaHnivDvN7MOJD5I9jjP/jGENx+4PvfLEyXdyPY6z/xmzOo7fK62eDxGcRqncEUSvhCqOOP6MTLYQy2lEygPh9Mai3Dci6pVBuW9E1St7ytiIrHcjThF/vtNIU8Sf8TTC7OLPeRauIKs/61WJUjfi7YUkZSHm0wiSB8K+Gz0eR+SncaNtxN6NGR3h35UXEwzsrJjgYOfEAAsbIzp4+PKhgYjb2GCbCfBMBgcXBxc62FiYYKCjZyJ8fEDnQQUht9HAGYHJggpOZhIsUnQOPCDlzhSYrEClgNNiMaCAl5kAkxiVAB8xRvwyiOnxe5mBHL5OjRK+HzVa+BY1Rvg2NWb4QM0VPeSGR4/+vfVFD7mxogebGr/wOTVG+H7UaOEb1Cjhq9TI4XuY4Sn+mxiTAD9iVAI0YhgBMi9WYuCiRaVAYcXOFEibFDNxsJPCSJA3JWZiYaeE0SA7IUbiYeGDGxHSjw41MTE7GUbiYuGCZzKkzoRtiY6TCG8i5I8GLTEyfyToiZSTAjXRssdvv4mYLXpuiZrmofvlRM484rZbIqh50H45cbR6wFZJNLUeLa+JqjYjtXtObK0epmmJsdVDtEoirc34eEnEtV9sds+Ju9UDM3Lib99BWU+isM2IeEk0No/GbonK1SOxe05kzj0OyxKhbcZglUTq4ue3ayJ29bPbPSdq2zi5aYneNk9tlUTx6ifmb6J589PaPSei2zyrkRPZbZ3TehLhq5+Rl0T6fkDWEu9tng4jUN/8ZITg41/1rkiBbyDxLbEK30Iat8MY4Yu4670YBF/GqvdBCnwfadwE3eE7SccNMEb4WlbNbiB8M3GkZgW+nS2xk+D7uWlWA+EbSppThy8pWUYDvqYloRO+qC0dpW8KSDYFvqpkuXT4srZUFD8ySHutzFz3QumAZlIhW6S9Vmaue6GbVtqh/rJJ3ymVkohCqqUd6q+vUe2scB/m7z0b5QGWR02kDPP3fuM5ptLNr5SaBqdhmAWx+ZVfPaIifrnWJDCNATkW8cu92+kU8Sm1pgCSRUmBxKf0fjTYfVotGbQkDBJENp/V67kU9ZkHxbclIQlU9ZmnHUr32Tk8sBw4vCI+uT8nQqfPrzW6M4c9OOy+YD8PUl/yoNhGDltszXzJfhqb+aqdIuMcMLIivuo8i818Xa2BtRwgbjp84XkSm/nSSmHVFDwsZPOl5zmQ+uqDPg9FffV+F1B9fW0fBhIPsN2E4SHqHlFLAREhe4zlFjSPclA8nAPGU82DVLwB5IFyOEcOWzRFPM7jBkgkrjUYyaHGgt1DLelVD/agUDzHHkozj1UxO43GvVMcJQkJpJweLidXPWCtYbQkHKOgwwM2zE0jclcK4syixoBsHjKnVj3qQRGQZykhFPWgDTPTsFw5gJGG43okHvee2OaRa11O8+DVkD1ySWyE5j5orep5Gq5VzWPHvDQ4d8aFUBNxXqmIR9/S2jx+reuwZ2q0DHaPX9JqCbiftAh5rrJKM0/QMKsjBfdBS2gy3pYo6jmWrCwJ17oAe7ZG85F4li0p9Dx1m409X6XJkM3THEmVRNwHTVU94xOn2tUTPZOqqbjxRNVzPnGeTTxVS4pzcdc6S/OslSbB7tliTiMb90FTdM9btymaebr0kNwZL6PTU+frinjCz8m1XoPs2Wu5BoenXJ6Tu9b3IZvfwEHvQzb/eLlrxbcQm99Eqe8p3Tzrh+XuR6VfFBa/kzYqvYaF1RPfcuqZubtJ5/ovj9P8hqp0rv/yOD15yomT+6BCzvVLYkm9IjmTMpFIUlkkI6m0NcJZuUZqVksjJaupkS2roRHMqmkEsq4S0bSKRM60HolIWvbH1/jflXQ15KvB/knxSORIq0hE0nolomnVq6FLxNOaGqGslka2rD6N1Kyg0ZbUI5KR1CuSM6kuEkvqJxKnnD6V1JQyVNpTKjKRlIZMDDNaMvGSUIZOOaFXKJLQFIpjPq6Ums4DpY50hlQMs3GpeEnmgVZHMlMshrm4WLylUqFWSWXJxUsiBr32RKZgDNMwF4xzGhWKNczCJeM1iQrNahIuGq8pVKhWMQFz2Tgn0KFbw/AMyu3hTen4FlyFdiW27OLxFtqAeo0Ce6BfiSu7gLyFNaBgo6AqNHzGZC4i7yE5ZFwDGtCxUTgdSlYM5oWWz1hsi8lHJOaIsJ7HGGPI+Yic4zBHeIULwotbPezxOEeRHcGVhvDGfTwd5xjyh9hKgXfTeDjeIsgfQqsFrqTxbJzXsw+hZYSLd300zquZI7Ja4HoaoXFeyxyRPQmm7KFxXqlsRHYgTNpC4wcu0xDaAfPW0LjSIgOhPXGi1ELjWlawD6FVgqlHaNx5vrIRW4LJV2x80GQdwWWY3XZsXGmm/ENwFeZvwXHb57EP0d0XSCs47jyLOaIrsGIJj/Mc5ghvWSKt8Hif4dkI7wlrlvj4uM4c8a2LpB0fH1eZI8C0ygiQ8zXmCLDAqiVCzpd8iHBbJu0Ieb1gIMRlnRUi297WEGNcZ4TIFd9kiLHCujVGLu/JHiRZ6AmSt7cMBPlYyKJk9IaCKI+FcpRc3uAESWHy9quOm8DwF+ZXgfdfTNwFTi8ZboPx0rwOnF4wcMRC1V8YF4LhT34hOP9QcSPYD78rwct/GO6E/h/1UrD/+F0KXv7ZtwIDpIJbQQBSvxYcIa17oUDa90KDB/fCgBKu44Oi0MIlHxSHcTPQ72bY1s1Q/WrYRHnixSBK+Q8W/1tDXTfDPm+GMm4GbDcDvBfDCXYxHJD2vdAgrWg5UQqkcS8gpHItnAApXwsdIKV1K5R/2q0A/xpN3mAd/5EWS2qw6n/1OwH/K18JA35cN0L5qVwICi/u+6C+0q8DpVfQ/hoMeJn/GtBraH8LBvyS/xQo/Qb1LwHDr/c/BApvlL8D9R1kD8k/HwPe2v4IKL0H5G9AhTeT/QXo8Pb6B0DxfdC/fkZwpXz7KlxK+nzso8FwMenj0U9Gh8s3ezqyUHk8Aybc7GNBT+eEKTd7Nn0hfDgnzgGbPZq2EOijGQizkj6ZstLxZDpMTPpgcKX2YBimxiMqVTnGzyJq+QisXDIyVREZ4xCRUy0qqzA7B2Pn4LoRvHMrrcuZSF8KLRE7B9dCCL+msvMQC0YJ5i8axtkrweVY2qE5lKVAcjDpO8HVWFgsjI6wIo0IpBeEeakODU9h7RqfHW2Debd6WAC2w6pV17KjIsy/8RnbWAwtNu0F5i/9XKwjLMzr2FEQVqWmgdFi0ANTJliVmq4jBdamsYY0hLW3oUEJrF6isl5g7W3oElphfRrTWS8QYdWQ6nIgIUlDCLDKdMYIIdLQmaQhRFkkHoX1S0BHgSi3YTNJhUCrTGJcIFQa0dQAQIKxThBqPSaxXiBYqnKZcIF4bYZyQIQlFkYIF+uwq2wUhIhx7+fbzl4Rgt7OQCgE6IEMgqC3dui77GgFQi+1H6I/mcrgukHsVaNgiBE1CikQOpbW5dSfTI/RdoI0kYgQkkSOQSHKEoPukCUSETxc0gCUwoAeQUf4KPN6OwQqy2mBTzPpYgyRoi7WET7QvBRDrKQraYHPdNV1GKIlXedA+FSTrMIQL+ki1uCTzWswREy6hG7w2d50PtshZhwLdIRPN43ZToKweTar8AlvNlWHyEmnEoLPOI15pEDwbNNYg8951Tm0Qvw0JukIH/Wq12lDSJHGBIPg417lGimQJ7FeYozwkacq75KGkGwZ+iYbBT74tHex10z6jpDy1o7zF3q0Al9AKntlZq51I0h+K7Uxc6v7hvAEAVZQOCAaAgAAsD0AnQEqHAL1AT6RSKFNJaQjIiAIALASCWlu4XdhG0AJ7APfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPekAD+/94IqhwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==" alt="DAO" />
+                </div>
+              </div>
+              <div class="slide" id="slide-subscriptions">
+                <div class="slide__title">
+                  <h3>Subscriptions<br />for Drivers</h3>
+                  <h3>6</h3>
+                </div>
+                <div class="slide__content">
+                  <p>
+                    ShuttleX enhances transparency and creates a&nbsp;driver and passenger-centric approach for the
+                    ridesharing industry. We&nbsp;are committed to&nbsp;delivering the best user experience through
+                    innovative and unique approaches. <br />
+                    <br />
+                    <br />
+                    <br />
+                    By&nbsp;accelerating blockchain adoption and implementing our features and SaaS business model,
+                    we&nbsp;drive the shift towards decentralized operations, fostering innovation and trust for all
+                    members.
+                  </p>
+                  <img src="/assets/features_ocals-DiB9PGl_.webp" alt="ovals" />
+                </div>
+              </div>
+              <!-- <div class="slide">
+                asd
+                </div>
+                <div class="slide">
+                asd
+                </div> -->
+            </div>
+          </div>
+        </div>
+        <div class="wrapper">
+          <div class="container features__container">
+            <div class="features__block" id="token" data-slide="1">
+              <div class="features__title">
+                <h3>Kryptobara<br />Token</h3>
+                <p>By&nbsp;accelerating blockchain adoption and implementing our features and SaaS</p>
+              </div>
+              <img src="/assets/features_token-BPHL6mJT.webp" alt="Kryptobara token" />
+            </div>
+            <div class="features__block" id="contract" data-slide="2">
+              <h3>Smart<br />Contracts</h3>
+              <img src="data:image/webp;base64,UklGRmoFAABXRUJQVlA4WAoAAAAQAAAABQIABwEAQUxQSHEDAAABoPP8/9s2+sJypUGbcWNMRADTKwEC6ZrSey+KqPTeEyJTvbtUrvIquI0e23ivQJpu9MhJs1/CNWkMft//zwIYERMAFvYNuZ7Ix4csELHH9QTvdtHA8oRvkaDLE38PB1z5uRSwPAL2MmCYAUMMGGeAywCPgqsHXAaMMmCQAQ4DehiQYwCG5OeAgh2u9NwcB5BzZefmQEPbldu43QEidvQNrhH5oNWBzP+Z/8nubNy1W+ThxmEm2MFuwQcWDYZ3C3+YBNZu8dscCOQXUGB4NwEdBmxkwEYGhAwIGLCbgqsHAgbsYECeAT4DbAZ0MwAb5eeDgrlAekE3B9AdyC7oBg29QG6hlwMRc05+vcjzwzlk/s/838bbPxk9Efndk1uY4EVPBB+N0GDrE+FvJcHwE/F7HIjkF1FgyxMC+gw4yYCTDLjHgIgBTyi4eiBiwFUGHGTAIQZ4DLAZgBPyOwQKdpelV7Y5ALssu7INGu4uy+3e7h4QsccvHBJ5YUsPMv9n/m/jva0UfxH5+1LIBD/+Ivh4LQ3CL8IPSbD2i/h9DsTyiykQfiHgNgaUGFBiwHsGxAz4QsHVAzEDnjHgFAMuMcBngMMAlOR3CRTsjaUXOxyAE8sudkDDQ7Hc3h/qBRF7t526JPJTYS8y/2f+/6WGz5Oqoa88L7TamlSNfpJvUqga/wKAdVUFuAVINECCg1UVGL7QAc8rOiCpthVMdMDnog64t0UHDOO5BrgHWIn5S4YBDCemLxlG03OJyaucs9DSCm/cM/Q3DlrI/J/5v23ngY+TS4Z+7uPRVsHkktGf2tDk6JLxPwpgw5ICDIBJDTCFo0sq8MAnHfBxTgdMLbUVnNQBE490QBzoABcfNUAM9E+avykXwNik6Zty0TSaNHlzUT9a9h949NbQPzraj8z/mf/bdp6aqTcM/fJMsVWh3jD6tZ1Nig3jXwSws6EADwJ1DVBDsaECT03rgJllHVBrtBWs64A/v+qAykEdkMeMBqgAA3XzV8sDyNdNXy2Ppu/qJm/53QBaDpz8UjH0X4oDyPyf+f+Xemk+/dvQr8zfa3Uo/dvop2GTu38b/7sAwr8V4CEg1QAp7v2tAi/N64CFFR2Q/t1WMNUBf03ogNlDOsDHvAaYBZzU/KU+AD81famPpl9Sk7fyxUFL59LErKGfuOfg/wBWUDgg0gEAALAyAJ0BKgYCCAE+iTaVR6UjIiEzKACgEQlpbuF31gigH6AfwB3AH4AfoB/AE/tK3SK5lLq+/c/fufv3P3Cqcho0lq5DgYhwMQ4GIcDEOBiGJ1d7tqbZgqmKmnkABOKLSWrkOBiHAxDMvlMVw7NAE4dmgEIlq5DgYhwMQ35NpKIQ5tmCqYqaeQAE+mFR/37n79z9+PqSpipp5AATh2aD79z9+5+/c/fuDxEOFWtG2YKpipp5AAhEtXIcDEOBiG/UyzQBOHZoAnDs0H37n79z9+5+/cXap2ktXIcDEOBdLLh2aAJw7NAE4bwgCcOzQBOHZoAn1iAvNjQtpku4QF5saFtMl3CAvNjQtpkbotAE4dmgCcOzQBOHZoAnDs0ATh2ZpJw7NAE4dmgCcOzQBOHZoAnDs0ATdqaAJw7NAE4dmgCcOzQBOHZoAnDszSTh2aAJw7NAE4dmgCcOzQBOHZoAm7U0ATh2aAJw7NAE4dmgCcOzQBOHZmknDs0ATh2aAJw7NAE4dmgCcOzQBPphUf9+5+/c/fufv3P37n79z9+3QAD+/7ajn/98sADmdWABzOrAA4iyRK+Akvw2JXxCZNpLF39QcVzJwWh2Bt2P9BRPMAAAAAA=" alt="Smart contracts" />
+            </div>
+            <div class="features__block" id="gamification" data-slide="3">
+              <h3>Gamification</h3>
+              <img src="data:image/webp;base64,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" alt="Gamification" />
+            </div>
+            <div class="features__block" id="safety" data-slide="4">
+              <h3>Safety</h3>
+              <img src="data:image/webp;base64,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" alt="Safety" />
+            </div>
+            <div class="features__block" id="dao" data-slide="5">
+              <h3>DAO</h3>
+              <img src="data:image/webp;base64,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" alt="DAO" />
+            </div>
+            <div class="features__block" id="subscriptions" data-slide="6">
+              <div class="features__title">
+                <h3>Subscriptions<br />for Drivers</h3>
+                <p>
+                  We&nbsp;are committed to&nbsp;delivering the best user experience through innovative and unique
+                  approaches.
+                </p>
+              </div>
+              <img src="/assets/features_ocals-DiB9PGl_.webp" alt="ovals" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="roadmap">
+        <div class="container">
+          <h4 class="section__subtitle roadmap__subtitle text-animation" data-start-delay="0.1">For Users</h4>
+          <h2 class="section__title roadmap__title text-animation" data-start-delay="0.2">Roadmap</h2>
+          <div class="roadmap__wrapper">
+            <div class="roadmap__icon">
+              <svg class="roadmap__progress" viewBox="0 0 100 100">
+                <svg class="bg" width="100%" height="100%" viewBox="0 0 160 160">
+                  <defs>
+                    <g id="lines">
+                      <line x1="74" x2="79" />
+                      <line x1="-74" x2="-79" />
+                      <line y1="74" y2="79" />
+                      <line y1="-74" y2="-79" />
+                    </g>
+                  </defs>
+                  <g transform="translate(80 80)">
+                    <use xlink:href="#lines" transform="rotate( 0)" />
+                    <use xlink:href="#lines" transform="rotate( 5)" />
+                    <use xlink:href="#lines" transform="rotate(10)" />
+                    <use xlink:href="#lines" transform="rotate(15)" />
+                    <use xlink:href="#lines" transform="rotate(20)" />
+                    <use xlink:href="#lines" transform="rotate(25)" />
+                    <use xlink:href="#lines" transform="rotate(30)" />
+                    <use xlink:href="#lines" transform="rotate(35)" />
+                    <use xlink:href="#lines" transform="rotate(40)" />
+                    <use xlink:href="#lines" transform="rotate(45)" />
+                    <use xlink:href="#lines" transform="rotate(50)" />
+                    <use xlink:href="#lines" transform="rotate(55)" />
+                    <use xlink:href="#lines" transform="rotate(60)" />
+                    <use xlink:href="#lines" transform="rotate(65)" />
+                    <use xlink:href="#lines" transform="rotate(70)" />
+                    <use xlink:href="#lines" transform="rotate(75)" />
+                    <use xlink:href="#lines" transform="rotate(80)" />
+                    <use xlink:href="#lines" transform="rotate(85)" />
+                  </g>
+                </svg>
+                <circle cx="50%" cy="50%" r="48%" pathLength="1" class="progress" />
+              </svg>
+              <div class="roadmap__text">
+                <div class="roadmap__item roadmap__item_october">
+                  <h3 class="roadmap__year">2024</h3>
+                  <h2 class="roadmap__month">October</h2>
+                  <h4 class="roadmap__description">Create DAO Portal</h4>
+                </div>
+                <div class="roadmap__item roadmap__item_november">
+                  <h3 class="roadmap__year">2024</h3>
+                  <h2 class="roadmap__month">November</h2>
+                  <h4 class="roadmap__description">Create DAO Portal</h4>
+                </div>
+                <div class="roadmap__item roadmap__item_december">
+                  <h3 class="roadmap__year">2024</h3>
+                  <h2 class="roadmap__month">December</h2>
+                  <h4 class="roadmap__description">Create DAO Portal</h4>
+                </div>
+                <div class="roadmap__item roadmap__item_january">
+                  <h3 class="roadmap__year">2024</h3>
+                  <h2 class="roadmap__month">January</h2>
+                  <h4 class="roadmap__description">Create DAO Portal</h4>
+                </div>
+                <div class="roadmap__item roadmap__item_february">
+                  <h3 class="roadmap__year">2024</h3>
+                  <h2 class="roadmap__month">February</h2>
+                  <h4 class="roadmap__description">Create DAO Portal</h4>
+                </div>
+              </div>
+              <div class="roadmap__checkpoints">
+                <div class="roadmap__line">
+                  <div class="roadmap__line-wrapper roadmap__line-wrapper_0">
+                    <div class="roadmap__checkpoint" id="ch_february"></div>
+                    <div class="roadmap__checkpoint" id="ch_november"></div>
+                  </div>
+                </div>
+                <div class="roadmap__line">
+                  <div class="roadmap__line-wrapper roadmap__line-wrapper_50">
+                    <div class="roadmap__checkpoint"></div>
+                    <div class="roadmap__checkpoint" id="ch_december"></div>
+                  </div>
+                </div>
+                <div class="roadmap__line">
+                  <div class="roadmap__line-wrapper roadmap__line-wrapper_140">
+                    <div class="roadmap__checkpoint" id="ch_october"></div>
+                    <div class="roadmap__checkpoint" id="ch_january"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="roadmap__info" id="october"></div>
+            <div class="roadmap__boofer"></div>
+            <div class="roadmap__info" id="november"></div>
+            <div class="roadmap__boofer"></div>
+            <div class="roadmap__info" id="december"></div>
+            <div class="roadmap__boofer"></div>
+            <div class="roadmap__info" id="january"></div>
+            <div class="roadmap__boofer"></div>
+            <div class="roadmap__info" id="february"></div>
+            <div class="roadmap__boofer"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="container footer__container">
+          <div class="footer__item footer__content">
+            <img src="/assets/logo-CxwuFB0y.svg" alt="logo" />
+            <nav class="navigation footer__navigation">
+              <ol class="navigation__wrapper">
+                <li class="navigation__item">
+                  <div class="navigation__title">
+                    <a href="" class="link">Drivers</a>
+                  </div>
+                  <div>
+                    <a href="" class="link">Price</a>
+                  </div>
+                  <div>
+                    <a href="" class="link">About</a>
+                  </div>
+                  <div>
+                    <a href="" class="link">Get App</a>
+                  </div>
+                </li>
+                <li class="navigation__item">
+                  <div class="navigation__title">
+                    <a href="" class="link">Passangers</a>
+                  </div>
+                  <div>
+                    <a href="" class="link">Price</a>
+                  </div>
+                  <div>
+                    <a href="" class="link">About</a>
+                  </div>
+                  <div>
+                    <a href="" class="link">Get App</a>
+                  </div>
+                </li>
+                <li class="navigation__item">
+                  <div class="navigation__title">
+                    <a href="" class="link">About</a>
+                  </div>
+                  <div>
+                    <a href="" class="link">Investors</a>
+                  </div>
+                  <div>
+                    <a href="" class="link">Work with us</a>
+                  </div>
+                </li>
+              </ol>
+            </nav>
+          </div>
+          <div class="footer__item footer__info">
+            <div class="footer__socials">
+              <div class="footer__social">
+                <img src="data:image/svg+xml,%3csvg%20width='14'%20height='14'%20viewBox='0%200%2014%2014'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M3.54864%201.89575C3.59995%201.23639%203.27394%200.604163%202.7046%200.258927C2.13526%20-0.086309%201.41866%20-0.086309%200.849317%200.258927C0.279979%200.604163%20-0.0460337%201.23639%200.00527583%201.89575C0.0110586%202.86393%200.804931%203.64578%201.78222%203.64576C2.75779%203.64576%203.54864%202.86225%203.54864%201.89575ZM14%208.47913C14%206.60365%2012.4654%205.08327%2010.5723%205.08327C9.58587%205.11692%208.67691%205.62152%208.13294%206.43745V5.28119H5.19941V14H8.13294V8.86455C8.08602%208.31602%208.35487%207.78806%208.82807%207.49949C9.30126%207.21092%209.89815%207.21092%2010.3713%207.49949C10.8445%207.78806%2011.1134%208.31602%2011.0665%208.86455V14H14V8.47913ZM3.24372%205.28119V14H0.331224V5.28119H3.24372Z'%20fill='white'/%3e%3c/svg%3e" alt="LinkedIn" />
+              </div>
+              <div class="footer__social">
+                <img src="data:image/svg+xml,%3csvg%20width='10'%20height='20'%20viewBox='0%200%2010%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M10%200H6.875C4.45875%200%202.5%201.95875%202.5%204.375V7.5H0V11.25H2.5V20H6.25V11.25H10V7.5H6.25V5C6.25%204.30964%206.80964%203.75%207.5%203.75H10V0Z'%20fill='white'/%3e%3c/svg%3e" alt="Facebook" />
+              </div>
+              <div class="footer__social">
+                <img src="data:image/svg+xml,%3csvg%20width='15'%20height='15'%20viewBox='0%200%2015%2015'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M14.5134%200L8.92871%206.35214L15%2015H10.5331L6.44326%209.17532L1.32321%2015H0L5.85644%208.33937L0%200H4.46687L8.33882%205.51434L13.1902%200H14.5134ZM6.5215%207.58164L7.11579%208.41258L11.1568%2014.0715H13.1895L8.2361%207.13994L7.64432%206.30901L3.83311%200.976118H1.80039L6.5215%207.58164Z'%20fill='white'/%3e%3c/svg%3e" alt="X" />
+              </div>
+            </div>
+            <h5 class="footer__copyright">&copy;&nbsp;All Rights Reserved</h5>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+</html>
